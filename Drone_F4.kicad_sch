@@ -1,0 +1,103 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f11f4edc-4f7d-46c8-a3ce-5e98c6bf6c28)
+
+  (paper "A4")
+
+  (title_block
+    (date "2023-03-06")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Power" (at 177.419 93.218 0)
+    (effects (font (size 2 2) bold italic) (justify left bottom))
+    (uuid 038d9d8d-08e6-46ca-a101-3dd56cac5741)
+  )
+  (text "Microcontroller" (at 76.454 93.218 0)
+    (effects (font (size 2 2) bold italic) (justify left bottom))
+    (uuid 9b941f32-17d0-406a-a0b2-08c071a03382)
+  )
+  (text "Sensor and Actuator" (at 119.634 93.218 0)
+    (effects (font (size 2 2) bold italic) (justify left bottom))
+    (uuid e4b1c83d-1814-4ed4-9ae3-8c9192da1c2a)
+  )
+  (text "Connector" (at 212.979 93.218 0)
+    (effects (font (size 2 2) bold italic) (justify left bottom))
+    (uuid e7482bd6-a55e-45ab-b7ed-dadc37d69d6a)
+  )
+
+  (sheet (at 72.644 71.628) (size 31.75 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1cd79400-ab4a-431e-a8c1-85ca65e2121a)
+    (property "Sheetname" "MCU" (at 72.644 70.9164 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 72.644 115.3926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Drone_F4"
+        (path "/f11f4edc-4f7d-46c8-a3ce-5e98c6bf6c28" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 206.629 71.628) (size 27.305 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2670ae42-cb55-4a5d-a70c-3834e044f7a5)
+    (property "Sheetname" "Connector" (at 206.629 70.9164 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connector.kicad_sch" (at 206.629 115.3926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Drone_F4"
+        (path "/f11f4edc-4f7d-46c8-a3ce-5e98c6bf6c28" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 115.824 71.628) (size 40.64 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6e4f299c-c938-4d5b-8e30-b6e151c4b848)
+    (property "Sheetname" "Sensor and Actuator" (at 115.824 70.9164 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensor and Actuator.kicad_sch" (at 115.824 115.3926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Drone_F4"
+        (path "/f11f4edc-4f7d-46c8-a3ce-5e98c6bf6c28" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 164.084 71.628) (size 36.83 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 74834c2c-3039-47a8-a7b0-b6faa9ec3066)
+    (property "Sheetname" "Power" (at 164.084 70.9164 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 164.084 115.3926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Drone_F4"
+        (path "/f11f4edc-4f7d-46c8-a3ce-5e98c6bf6c28" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
